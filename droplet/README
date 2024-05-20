@@ -1,0 +1,9 @@
+# This folder contains scripts to deploy our landing page to our server
+  fluentwithparrot.com
+
+Here is how it works.
+
+1. Builds the Static content from the ViewJS application into dist folder
+2. Copied the static files to the parrot email capture server public folder on a Digital Ocean Virtual Machine
+
+

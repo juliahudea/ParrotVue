@@ -11,9 +11,11 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.22",
     "@heroicons/vue": "^2.1.3",
+    "posthog-js": "^1.131.4",
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "posthog-js": "^1.131.4",
     "@unhead/vue": "^1.9.10",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vueuse/head": "^2.0.0",
