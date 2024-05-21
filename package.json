@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "NODE_ENV=dev vite",
     "build": "vite-ssg build",
     "preview": "vite preview"
   },
@@ -13,6 +13,7 @@
     "@heroicons/vue": "^2.1.3",
     "@vue-hero-icons/outline": "^1.7.2",
     "vue": "^3.4.21",
+    "posthog-js": "^1.131.4",
     "vue-flagpack": "^1.0.1"
   },
   "devDependencies": {
@@ -21,10 +22,9 @@
     "@vueuse/head": "^2.0.0",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
-    "posthog-js": "^1.131.4",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.0",
-    "vite-ssg": "^0.4.2",
+    "vite-ssg": "0.23.7",
     "vue-router": "^4.0.13"
   }
 }
