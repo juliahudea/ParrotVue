@@ -15,7 +15,7 @@
           aria-hidden="true"
         >
           <div
-            class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-parrotOrange to-parrotBlue opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             style="
               clip-path: polygon(
                 74.1% 44.1%,
@@ -38,7 +38,7 @@
             "
           />
         </div>
-        <div class="py-24 sm:py-32">
+        <div class="py-24 sm:py-28">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <TitleBlock />
             <div class="mt-16 flow-root sm:mt-24">
@@ -51,7 +51,7 @@
           aria-hidden="true"
         >
           <div
-            class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-parrotOrange to-parrotBlue opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
             style="
               clip-path: polygon(
                 74.1% 44.1%,
@@ -75,12 +75,13 @@
           />
         </div>
       </div>
-      <div class="-mt-20">
-        <CTA />
-      </div>
 
       <!-- Youtube logos section -->
       <LogosBlock />
+
+      <div class="mt-28">
+        <CTA />
+      </div>
 
       <!-- Feature section -->
       <Features />
@@ -98,10 +99,10 @@
 
 <script setup>
 import { ref } from "vue";
-import Features from "./components/Features.vue";
 import CTA from "./components/CTA.vue";
 import CTABanner from "./components/CTABanner.vue";
 import Testimonials from "./components/Testimonials.vue";
+import Features from "./components/Features.vue";
 import Header from "./components/Header.vue";
 import LogosBlock from "./components/LogosBlock.vue";
 import Video from "./components/Video.vue";

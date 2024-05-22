@@ -9,9 +9,9 @@ export default {
     extend: {
       colors: {
         "parrotOrange" : "#F06B00",
-        "parrotBlue" : "#1996F0",
-        "parrotYellow" : "#FBC200",
-        "parrotLightView" : "#CBE4F5",
+        "parrotBlue" : "#0c92f1",
+        "parrotYellow" : "#FBba00",
+        "parrotLightView" : "#C2DEF2",
       }
     }
   },
