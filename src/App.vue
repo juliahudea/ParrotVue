@@ -1,11 +1,7 @@
 <template>
-  <div class="bg-white">
+  <div>
     <!-- Header -->
-    <Header
-      :navigation="navigation"
-      :mobileMenuOpen="mobileMenuOpen"
-      @mobileMenuOpen="mobileMenuOpen = $event"
-    />
+    <Header />
 
     <main class="isolate">
       <!-- Hero section -->
@@ -70,9 +66,7 @@
                 27.6% 76.8%,
                 76.1% 97.7%,
                 74.1% 44.1%
-              );
-            "
-          />
+              );" />
         </div>
       </div>
 
@@ -88,12 +82,17 @@
 
       <CTA />
 
+      <Graph />
+
       <!-- Testimonial section -->
       <Testimonials />
 
       <!-- CTA banner -->
       <CTABanner />
     </main>
+
+    <!-- Footer -->
+    <Footer />
   </div>
 </template>
 
@@ -107,49 +106,6 @@ import Header from "./components/Header.vue";
 import LogosBlock from "./components/LogosBlock.vue";
 import Video from "./components/Video.vue";
 import TitleBlock from "./components/TitleBlock.vue";
-import FlagsBlock from "./components/FlagsBlock.vue";
-
-const navigation = [
-  { name: "A", href: "#" },
-  { name: "Mi", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
-];
-const faqs = [
-  {
-    id: 1,
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  // More questions...
-];
-const footerNavigation = {
-  solutions: [
-    { name: "dfsdf", href: "#" },
-    { name: "Data Services", href: "#" },
-    { name: "Uptime Monitoring", href: "#" },
-    { name: "Enterprise Services", href: "#" },
-  ],
-  support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Reference", href: "#" },
-  ],
-  company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
-  ],
-  legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
-  ],
-};
-
-const mobileMenuOpen = ref(false);
+import Footer from "./components/Footer.vue";
+import Graph from "./components/Graph.vue";
 </script>
