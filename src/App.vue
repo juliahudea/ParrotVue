@@ -97,7 +97,6 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
 import CTA from "./components/CTA.vue";
 import CTABanner from "./components/CTABanner.vue";
 import Testimonials from "./components/Testimonials.vue";
