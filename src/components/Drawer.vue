@@ -135,8 +135,9 @@ function transitionToThankYou() {
               <img
                 v-if="preEmailEntry"
                 class="md:max-w-2xl lg:max-w-3xl rounded-lg shadow-2xl"
-                src="../assets/blurred-youtube.png"
+                src="../assets/blurred-youtube-compressed.jpg"
                 alt="AppSnapshot"
+                rel="preload"
               />
               <img v-else src="../assets/ParrotLogo.svg" alt="Parrot Logo">
               <div
