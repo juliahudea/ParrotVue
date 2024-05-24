@@ -34,10 +34,10 @@
             "
           />
         </div>
-        <div class="py-24 sm:py-28">
+        <div class="pt-16 lg:pt-28">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <TitleBlock />
-            <div class="mt-16 flow-root sm:mt-24">
+            <div class="mt-16 flow-root sm:mt-14">
               <Video />
             </div>
           </div>
@@ -73,7 +73,7 @@
       <!-- Youtube logos section -->
       <LogosBlock />
 
-      <div class="mt-28">
+      <div class="mt-10">
         <CTA />
       </div>
 

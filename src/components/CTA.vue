@@ -1,6 +1,6 @@
 <template>
-    <div class="mt-10 mb-20 flex items-center justify-center gap-x-6">
-                <a href="#" @click="sendEvent" class="rounded-md bg-parrotOrange px-3.5 py-3.5 text-base font-bold text-white shadow-sm hover:bg-parrotBlue hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-parrotYellow" style="font-family: 'Poppins', sans-serif;">Start Watching For Free</a>
+    <div class="mt-10 mb-10 flex items-center justify-center gap-x-6">
+                <a href="#" @click="sendEvent" class="rounded-md bg-parrotOrange px-3.5 py-3.5 text-base font-bold text-white hover:bg-parrotBlue hover:text-white shadow-md shadow-inner-sm" style="font-family: 'Poppins', sans-serif;">Start Watching For Free</a>
     </div>
 </template>
 

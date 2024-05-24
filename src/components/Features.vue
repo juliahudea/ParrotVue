@@ -1,5 +1,5 @@
 <template>
-  <section id="features" aria-label="Features section" class="py-16 sm:py-22">
+  <section id="features" aria-label="Features section" class="py-10 sm:py-22">
     <div class="container mx-auto px-4 lg:px-8">
       <!-- Centered Text Container -->
       <div class="flex flex-col items-center text-center mx-auto max-w-3xl lg:max-w-3xl" style="font-family: 'Poppins', sans-serif;">
@@ -14,7 +14,7 @@
     <div class="container mx-auto px-4 lg:px-8 mt-14">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
         <!-- Left Column: Image Block -->
-        <div class="relative flex items-center justify-center rounded-md shadow-lg ring-1 ring-gray-900/10 col-span-1 md:col-span-2">
+        <div class="relative flex items-center justify-center rounded-md shadow-inner-sm shadow-lg ring-1 ring-gray-900/10 col-span-1 md:col-span-2">
           <img :src="selectedFeature.image" alt="Feature Image" class="h-full w-full object-contain rounded-md" />
         </div>
         <!-- Right Column: Feature Descriptions -->
@@ -22,7 +22,7 @@
           <div
             v-for="(feature, index) in features"
             :key="feature.name"
-            :class="['p-6 rounded-2xl cursor-pointer', selectedFeatureIndex === index ? 'bg-parrotBlue text-white font-bold shadow-lg' : 'bg-parrotLightView text-parrotBlue font-semibold']"
+            :class="['p-6 rounded-2xl shadow-lg cursor-pointer', selectedFeatureIndex === index ? 'bg-parrotBlue text-white font-bold shadow-lg' : 'bg-parrotLightView text-parrotBlue font-semibold hover:bg-[#9ecff2]']"
             @click="selectFeature(index)"
           >
             <h3 class="text-lg font-semibold">{{ feature.name }}</h3>
@@ -37,7 +37,6 @@
 <script setup>
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 
-// Import images directly
 import wordClick from '../assets/word-click.png'
 import videoRecommendations from '../assets/video-recommendations.png'
 import vocabularyTracker from '../assets/vocab-tracker.png'
@@ -71,7 +70,6 @@ const selectFeature = (index) => {
   selectedFeature.value = features[index]
 }
 
-// Auto-rotate through the feature blocks
 onMounted(() => {
   intervalId = setInterval(() => {
     if (autoRotate.value) {
