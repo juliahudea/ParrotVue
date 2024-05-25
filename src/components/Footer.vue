@@ -20,7 +20,7 @@
   const navigation = [
     {
       name: 'Facebook',
-      href: '#',
+      href: 'https://x.com/fluentparrot',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -34,7 +34,7 @@
     },
     {
       name: 'Instagram',
-      href: '#',
+      href: 'https://x.com/fluentparrot',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -48,7 +48,7 @@
     },
     {
       name: 'X',
-      href: '#',
+      href: 'https://x.com/fluentparrot',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -60,7 +60,7 @@
     },
     {
       name: 'GitHub',
-      href: '#',
+      href: 'https://x.com/fluentparrot',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -74,7 +74,7 @@
     },
     {
       name: 'YouTube',
-      href: '#',
+      href: 'https://x.com/fluentparrot',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
