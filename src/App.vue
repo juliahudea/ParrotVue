@@ -89,10 +89,8 @@
 
       <!-- CTA banner -->
       <CTABanner />
+      <Footer />
     </main>
-
-    <!-- Footer -->
-    <Footer />
   </div>
 </template>
 
