@@ -48,8 +48,8 @@ import { XMarkIcon } from "@heroicons/vue/24/outline";
     </DrawerTrigger>
     <DrawerContent>
       <DrawerHeader>
-        <DrawerClose class="w-min">
-          <XMarkIcon class="w-10 h-10"></XMarkIcon>
+        <DrawerClose class="w-min py-2 focus:outline-0 focus-visible:outline-0">
+          <XMarkIcon class="w-8 h-8"></XMarkIcon>
         </DrawerClose>
       </DrawerHeader>
      <EmailEntry/>

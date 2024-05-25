@@ -2,7 +2,8 @@
   <div class="video-container">
     <video
       src="../assets/Parrot Demo Video Looped.mp4"
-      autoplay
+      autoplay="autoplay"
+      playsinline
       muted
       loop
       alt="App Video Demo"
