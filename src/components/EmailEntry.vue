@@ -95,6 +95,13 @@ const emailInput = ref(null);
 const body = ref(null)
 const preEmailEntry = ref(true);
 
+
+function sendEmailSubmitEvent() {
+  console.log(posthog)
+  console.log(window)
+  posthog.capture("User Submitted Email");
+}
+
 function submitEmail() {
   // Create URLSearchParams object
   const formData = new URLSearchParams();
@@ -112,6 +119,7 @@ function submitEmail() {
     .post("api/submit-email", formData, config)
     .then((response) => {
       console.log("Success:", response.data);
+      sendEmailSubmitEvent()
       transitionToThankYou();
     })
     .catch((error) => {
