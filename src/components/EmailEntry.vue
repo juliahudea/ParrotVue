@@ -56,7 +56,7 @@
                 aria-hidden="true"
               />
             </div>
-            <dt class="mt-4 font-semibold">Instant Word Lookup</dt>
+            <dt class="mt-4 font-semibold md:text-lg">Instant Word Lookup</dt>
             <dd class="mt-2 leading-7 md:text-lg">
               While watching your favourite Youtube Videos, click words you
               don’t know to learn the meaning.
